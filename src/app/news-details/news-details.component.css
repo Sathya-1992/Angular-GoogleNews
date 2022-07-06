@@ -1,0 +1,22 @@
+.detail{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 1rem;
+    padding: 1rem 0.5rem;
+    border-bottom: 1px solid #c7c7c7;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+a{
+    text-decoration: none;
+}
+a:hover .title{
+    text-decoration: underline;
+}
+a:visited{
+    text-decoration: none;
+    color: inherit;
+}

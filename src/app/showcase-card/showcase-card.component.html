@@ -1,0 +1,19 @@
+<div class="card">
+    <div class="header">
+        <div>{{newsContent.publisher}}</div>
+        <div class="flex favourite">
+            <div><span class="material-icons-outlined">star_border</span></div>
+            <div>Follow</div>
+        </div>
+    </div>
+    <div class="top">Top Heading</div>
+    <app-news-details *ngFor="let news of newsContent.reference" [pubNews]="news"></app-news-details>
+    <div class="header">
+        <div class="flex gap">
+            <div>showcase</div>
+            <div>.</div>
+            <div>{{newsContent.time}}</div>
+        </div>
+        <div><span class="material-icons-outlined more">more_vert</span></div>
+    </div>
+</div>

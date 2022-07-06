@@ -1,0 +1,11 @@
+<div class="mainComp">
+    <main>
+        <div class="header">
+            <h2>News Showcase</h2>
+            <div>Stories selected by newsroom editors</div>
+        </div>
+        <div class="showcase">
+            <app-showcase-card *ngFor="let data of this.showcase.newsShowCase" [newsContent]="data"></app-showcase-card>
+        </div>
+    </main>
+</div>
