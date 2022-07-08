@@ -14,3 +14,17 @@ export interface SubNews{
     time : string,
     url : string
 };
+
+export interface NewsShowcase{
+    publisher:string,
+    isFollow : boolean,
+    reference:subShowCase[],
+    time : string
+};
+
+export interface subShowCase{
+    topic:string,
+    title : string,
+    image : string,
+    url:string
+};

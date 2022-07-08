@@ -4,7 +4,7 @@
     background-color: #F6F8FC;
 }
 main{
-    width: 60%;
+    width: 62%;
     height: 100%;
     margin: 0 auto;
     display: grid;
@@ -14,10 +14,10 @@ main{
     display: grid;
     grid-template-rows: auto auto;
     gap: 1rem;
-    padding: 2rem 0rem;
+    padding: 2.5rem 0rem;
 }
-h2{
-    font-weight: 300;
+.news{
+    font-size: 3rem;
 }
 .header div{
     color: #5F6368;
@@ -28,4 +28,5 @@ h2{
     grid-template-columns: repeat(3,1fr);
     grid-auto-rows: auto;
     gap: 2rem;
+    padding: 1rem 0rem;
 }

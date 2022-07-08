@@ -3,7 +3,7 @@
     grid-template-columns: 1fr auto;
     gap: 1rem;
     padding: 1rem 0.5rem;
-    border-bottom: 1px solid #c7c7c7;
+    border-bottom: 1px solid #c7c7c78f;
 }
 .content{
     display: flex;
@@ -19,4 +19,20 @@ a:hover .title{
 a:visited{
     text-decoration: none;
     color: inherit;
+}
+img{
+    height: 50px;
+    width: 80px;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+.topic{
+    color: #444746;
+    font-size: 1.4rem;
+}
+.title{
+    font-size: 1.2rem;
+    color: #444746;
+    font-weight: 600;
+    line-height: 2rem;
 }

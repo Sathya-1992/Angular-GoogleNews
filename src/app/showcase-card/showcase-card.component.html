@@ -1,7 +1,7 @@
 <div class="card">
     <div class="header">
         <div>{{newsContent.publisher}}</div>
-        <div class="flex favourite">
+        <div class="flex favourite" (click)="addFollowing(newsContent)" [appSelectedTopic]="{'clickedTopic':this.newsContent.isFollow}">
             <div><span class="material-icons-outlined">star_border</span></div>
             <div>Follow</div>
         </div>
