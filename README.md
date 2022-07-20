@@ -1,3 +1,10 @@
+![Screenshot from 2022-07-20 22-09-53](https://user-images.githubusercontent.com/102297210/180037469-7c6efc3f-897c-420a-9eae-743969f5aaf1.png)
+
+![Screenshot from 2022-07-20 22-10-52](https://user-images.githubusercontent.com/102297210/180037505-7f542b0c-af9a-41bf-b23f-96b17009a947.png)
+
+![Screenshot from 2022-07-20 22-11-01](https://user-images.githubusercontent.com/102297210/180037564-0e9b6d15-9339-489b-b0ae-c201ff51b5d7.png)
+
+
 # GoogleNews
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.1.
